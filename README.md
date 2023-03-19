@@ -10,6 +10,6 @@ React project that will help to manage information about suppliers, such as name
 
 ## Functionality
 Adding new information about a new suppliers
-Update current information about the supplier
-Delete supplier's information
+|Update current information about the supplier
+|Delete supplier's information
 
