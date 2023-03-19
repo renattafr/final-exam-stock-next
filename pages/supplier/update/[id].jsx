@@ -14,7 +14,7 @@ export default function Supplier({ supplier }) {
 
 
   const updateSupplier = async (data) => {
-    const response = await fetch(`/api/supplier/${supplier._id}`, {
+    const response = await fetch(`api/supplier/${supplier._id}`, {
       method: "PUT", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
